@@ -1,0 +1,15 @@
+@layout('layouts/main')
+@set('title', 'Product')
+
+@section('content')
+<section class="hero is-warning">
+    
+    <div>
+      <h1 class="text-3xl font-bold underline"> Product</h1>
+      <ul class="py-10">
+        <li> {{ product.title }} (id: {{ product.id}}) </li>
+      </ul>
+    </div>
+    
+  </section>
+@end

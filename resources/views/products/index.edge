@@ -1,0 +1,17 @@
+@layout('layouts/main')
+@set('title', 'Products List')
+
+  @section('content')
+  <section>
+    <div>
+      <h1 class="text-3xl font-bold underline"> Products List</h1>
+      <ul class="py-10">
+        @each(product in products)
+         <li> {{ product.title }} (id: {{ product.id}}) </li>
+        @endeach
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
+@end
