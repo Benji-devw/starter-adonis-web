@@ -5,8 +5,8 @@ This is a starter project for AdonisJS with Docker Compose
 
 ## Installation
 ```
-cd starter-adonis
-npm intall
+cd starter-adonis-web
+npm install
 ```
 * Create .env from .env.example
 ```
